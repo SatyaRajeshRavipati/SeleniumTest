@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13b9247f-9fe2-4552-b2a7-a5a8e2b842f4" name="Satya@MUNNI 2015-10-18 00:37:58" runUser="MUNNI\Satya" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="40149abf-9c58-40c2-b6c8-6a2fb1e58608">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Satya_MUNNI 2015-10-18 00_37_58">
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\WebDriver.Support.dll" />
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\Selenium.WebDriverBackedSelenium.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-18T00:37:58.7221415+01:00" queuing="2015-10-18T00:37:59.9096991+01:00" start="2015-10-18T00:38:00.0588430+01:00" finish="2015-10-18T00:40:55.1420293+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="MUNNI" outcome="Error" timestamp="2015-10-18T00:40:55.1420293+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestInvaidEmailAndClickSend" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba">
+      <Execution id="e2578549-06db-4078-8db6-c5e09f831a2c" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvaidEmailAndClickSend" />
+    </UnitTest>
+    <UnitTest name="TestValidSubmission" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="530facef-20e5-c263-5632-3bbc067df1f9">
+      <Execution id="1c4389f4-c14c-487b-8ae3-2acd73b0abaf" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestValidSubmission" />
+    </UnitTest>
+    <UnitTest name="TestEnteringBlankDataAndClickSend" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="1d4b0824-427d-90b9-7317-152fa2c09ef3">
+      <Execution id="a2ffe759-0749-4f65-a7f5-f4015bc6659d" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEnteringBlankDataAndClickSend" />
+    </UnitTest>
+    <UnitTest name="TestInvaidEmail" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="40c6c294-cd56-452d-0c3f-a20f2f610c18">
+      <Execution id="70fa07ba-2e4d-471c-b154-e59c078e4e43" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvaidEmail" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="530facef-20e5-c263-5632-3bbc067df1f9" executionId="1c4389f4-c14c-487b-8ae3-2acd73b0abaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40c6c294-cd56-452d-0c3f-a20f2f610c18" executionId="70fa07ba-2e4d-471c-b154-e59c078e4e43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d4b0824-427d-90b9-7317-152fa2c09ef3" executionId="a2ffe759-0749-4f65-a7f5-f4015bc6659d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba" executionId="e2578549-06db-4078-8db6-c5e09f831a2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c4389f4-c14c-487b-8ae3-2acd73b0abaf" testId="530facef-20e5-c263-5632-3bbc067df1f9" testName="TestValidSubmission" computerName="MUNNI" duration="00:02:54.9506549" startTime="2015-10-18T00:38:00.1913744+01:00" endTime="2015-10-18T00:40:55.1420293+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c4389f4-c14c-487b-8ae3-2acd73b0abaf">
+    </UnitTestResult>
+    <UnitTestResult executionId="70fa07ba-2e4d-471c-b154-e59c078e4e43" testId="40c6c294-cd56-452d-0c3f-a20f2f610c18" testName="TestInvaidEmail" computerName="MUNNI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70fa07ba-2e4d-471c-b154-e59c078e4e43">
+    </UnitTestResult>
+    <UnitTestResult executionId="a2ffe759-0749-4f65-a7f5-f4015bc6659d" testId="1d4b0824-427d-90b9-7317-152fa2c09ef3" testName="TestEnteringBlankDataAndClickSend" computerName="MUNNI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2ffe759-0749-4f65-a7f5-f4015bc6659d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2578549-06db-4078-8db6-c5e09f831a2c" testId="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba" testName="TestInvaidEmailAndClickSend" computerName="MUNNI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2578549-06db-4078-8db6-c5e09f831a2c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

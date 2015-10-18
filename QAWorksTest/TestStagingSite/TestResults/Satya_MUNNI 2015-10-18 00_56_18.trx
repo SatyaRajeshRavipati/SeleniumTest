@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ffb6f510-24e3-493c-b3b0-7b9c94920366" name="Satya@MUNNI 2015-10-18 00:56:18" runUser="MUNNI\Satya" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="4bd7c977-d797-4438-8844-9a4eecadc229">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="Satya_MUNNI 2015-10-18 00_56_18">
+      <DeploymentItem filename="C:\SeleniumTest\SeleniumDriver\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\SeleniumTest\SeleniumDriver\net40\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\SeleniumTest\SeleniumDriver\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\SeleniumTest\SeleniumDriver\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-18T00:56:18.7466361+01:00" queuing="2015-10-18T00:56:19.5778872+01:00" start="2015-10-18T00:56:22.6265026+01:00" finish="2015-10-18T00:56:43.6384879+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestInvaidEmailAndClickSend" storage="c:\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba">
+      <Execution id="ec8c5df3-a8c2-423a-b514-9c0cc7dd7475" />
+      <TestMethod codeBase="C:/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvaidEmailAndClickSend" />
+    </UnitTest>
+    <UnitTest name="TestValidSubmission" storage="c:\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="530facef-20e5-c263-5632-3bbc067df1f9">
+      <Execution id="277df852-ec61-4800-83db-13722b1f285e" />
+      <TestMethod codeBase="C:/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestValidSubmission" />
+    </UnitTest>
+    <UnitTest name="TestEnteringBlankDataAndClickSend" storage="c:\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="1d4b0824-427d-90b9-7317-152fa2c09ef3">
+      <Execution id="22c5beb4-d355-4c08-a7b0-7eb7cd724c6e" />
+      <TestMethod codeBase="C:/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEnteringBlankDataAndClickSend" />
+    </UnitTest>
+    <UnitTest name="TestInvaidEmail" storage="c:\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="40c6c294-cd56-452d-0c3f-a20f2f610c18">
+      <Execution id="e7834b2f-f7fd-44de-ad90-64ead97108c4" />
+      <TestMethod codeBase="C:/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvaidEmail" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="530facef-20e5-c263-5632-3bbc067df1f9" executionId="277df852-ec61-4800-83db-13722b1f285e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d4b0824-427d-90b9-7317-152fa2c09ef3" executionId="22c5beb4-d355-4c08-a7b0-7eb7cd724c6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40c6c294-cd56-452d-0c3f-a20f2f610c18" executionId="e7834b2f-f7fd-44de-ad90-64ead97108c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba" executionId="ec8c5df3-a8c2-423a-b514-9c0cc7dd7475" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="277df852-ec61-4800-83db-13722b1f285e" testId="530facef-20e5-c263-5632-3bbc067df1f9" testName="TestValidSubmission" computerName="MUNNI" duration="00:00:08.4187431" startTime="2015-10-18T00:56:22.7827600+01:00" endTime="2015-10-18T00:56:38.9987776+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="277df852-ec61-4800-83db-13722b1f285e">
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:56:38.9927736+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="22c5beb4-d355-4c08-a7b0-7eb7cd724c6e" testId="1d4b0824-427d-90b9-7317-152fa2c09ef3" testName="TestEnteringBlankDataAndClickSend" computerName="MUNNI" duration="00:00:01.5973215" startTime="2015-10-18T00:56:39.0067802+01:00" endTime="2015-10-18T00:56:40.6558107+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22c5beb4-d355-4c08-a7b0-7eb7cd724c6e">
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:56:40.6089319+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7834b2f-f7fd-44de-ad90-64ead97108c4" testId="40c6c294-cd56-452d-0c3f-a20f2f610c18" testName="TestInvaidEmail" computerName="MUNNI" duration="00:00:00.9595854" startTime="2015-10-18T00:56:40.6558107+01:00" endTime="2015-10-18T00:56:41.6393290+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7834b2f-f7fd-44de-ad90-64ead97108c4">
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:56:41.6393290+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec8c5df3-a8c2-423a-b514-9c0cc7dd7475" testId="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba" testName="TestInvaidEmailAndClickSend" computerName="MUNNI" duration="00:00:01.2741361" startTime="2015-10-18T00:56:41.6393290+01:00" endTime="2015-10-18T00:56:42.9489063+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec8c5df3-a8c2-423a-b514-9c0cc7dd7475">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNull failed. Assert.IsTrue failed. Invalid Email Address</Message>
+          <StackTrace>   at TestStagingSite.TestContactUs.TestInvaidEmailAndClickSend() in C:\Users\Satya\Desktop\SeleniumTest\QAWorksTest\TestStagingSite\TestContactUs.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:56:42.9489063+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+  </Results>
+</TestRun>

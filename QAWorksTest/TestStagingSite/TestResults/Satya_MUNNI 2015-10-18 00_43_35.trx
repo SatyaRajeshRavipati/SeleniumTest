@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9a4cc1ba-c7c2-4f4f-9a2c-d526b7b97e1d" name="Satya@MUNNI 2015-10-18 00:43:35" runUser="MUNNI\Satya" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="4bd7c977-d797-4438-8844-9a4eecadc229">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="Satya_MUNNI 2015-10-18 00_43_35">
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\WebDriver.Support.dll" />
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Satya\Desktop\SeleniumTest\SeleniumDriver\net40\Selenium.WebDriverBackedSelenium.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-18T00:43:35.0678001+01:00" queuing="2015-10-18T00:43:36.0254123+01:00" start="2015-10-18T00:43:40.9624792+01:00" finish="2015-10-18T00:43:43.1188408+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestInvaidEmailAndClickSend" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba">
+      <Execution id="fd96d124-ca67-4422-af54-822efc2c2ff9" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvaidEmailAndClickSend" />
+    </UnitTest>
+    <UnitTest name="TestValidSubmission" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="530facef-20e5-c263-5632-3bbc067df1f9">
+      <Execution id="8519c92e-f356-451e-b7ec-3e0397ba8053" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestValidSubmission" />
+    </UnitTest>
+    <UnitTest name="TestEnteringBlankDataAndClickSend" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="1d4b0824-427d-90b9-7317-152fa2c09ef3">
+      <Execution id="d72f238a-fd4d-47f3-be53-e614edf3d994" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEnteringBlankDataAndClickSend" />
+    </UnitTest>
+    <UnitTest name="TestInvaidEmail" storage="c:\users\satya\desktop\seleniumtest\qaworkstest\teststagingsite\bin\debug\teststagingsite.dll" id="40c6c294-cd56-452d-0c3f-a20f2f610c18">
+      <Execution id="a3a43957-d9bd-43fa-82fe-43973349f177" />
+      <TestMethod codeBase="C:/Users/Satya/Desktop/SeleniumTest/QAWorksTest/TestStagingSite/bin/Debug/TestStagingSite.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStagingSite.TestContactUs, TestStagingSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvaidEmail" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="530facef-20e5-c263-5632-3bbc067df1f9" executionId="8519c92e-f356-451e-b7ec-3e0397ba8053" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40c6c294-cd56-452d-0c3f-a20f2f610c18" executionId="a3a43957-d9bd-43fa-82fe-43973349f177" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d4b0824-427d-90b9-7317-152fa2c09ef3" executionId="d72f238a-fd4d-47f3-be53-e614edf3d994" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba" executionId="fd96d124-ca67-4422-af54-822efc2c2ff9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8519c92e-f356-451e-b7ec-3e0397ba8053" testId="530facef-20e5-c263-5632-3bbc067df1f9" testName="TestValidSubmission" computerName="MUNNI" startTime="2015-10-18T00:43:41.1499914+01:00" endTime="2015-10-18T00:43:42.2594241+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8519c92e-f356-451e-b7ec-3e0397ba8053">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method TestStagingSite.TestContactUs.ClassSetup threw exception. System.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception: The system cannot find the file specified.</Message>
+          <StackTrace>    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at OpenQA.Selenium.DriverService.Start() in c:\Projects\webdriver\dotnet\src\webdriver\DriverService.cs:line 190
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:line 81
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 969
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 947
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 90
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 144
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 122
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 110
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 99
+   at TestStagingSite.TestContactUs.ClassSetup(TestContext a) in C:\Users\Satya\Desktop\SeleniumTest\QAWorksTest\TestStagingSite\TestContactUs.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:43:42.2594241+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3a43957-d9bd-43fa-82fe-43973349f177" testId="40c6c294-cd56-452d-0c3f-a20f2f610c18" testName="TestInvaidEmail" computerName="MUNNI" startTime="2015-10-18T00:43:42.2750491+01:00" endTime="2015-10-18T00:43:42.3062979+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3a43957-d9bd-43fa-82fe-43973349f177">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method TestStagingSite.TestContactUs.ClassSetup threw exception. System.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception: The system cannot find the file specified.</Message>
+          <StackTrace>    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at OpenQA.Selenium.DriverService.Start() in c:\Projects\webdriver\dotnet\src\webdriver\DriverService.cs:line 190
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:line 81
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 969
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 947
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 90
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 144
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 122
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 110
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 99
+   at TestStagingSite.TestContactUs.ClassSetup(TestContext a) in C:\Users\Satya\Desktop\SeleniumTest\QAWorksTest\TestStagingSite\TestContactUs.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:43:42.3062979+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="d72f238a-fd4d-47f3-be53-e614edf3d994" testId="1d4b0824-427d-90b9-7317-152fa2c09ef3" testName="TestEnteringBlankDataAndClickSend" computerName="MUNNI" startTime="2015-10-18T00:43:42.3219240+01:00" endTime="2015-10-18T00:43:42.3531756+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d72f238a-fd4d-47f3-be53-e614edf3d994">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method TestStagingSite.TestContactUs.ClassSetup threw exception. System.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception: The system cannot find the file specified.</Message>
+          <StackTrace>    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at OpenQA.Selenium.DriverService.Start() in c:\Projects\webdriver\dotnet\src\webdriver\DriverService.cs:line 190
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:line 81
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 969
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 947
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 90
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 144
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 122
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 110
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 99
+   at TestStagingSite.TestContactUs.ClassSetup(TestContext a) in C:\Users\Satya\Desktop\SeleniumTest\QAWorksTest\TestStagingSite\TestContactUs.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:43:42.3531756+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd96d124-ca67-4422-af54-822efc2c2ff9" testId="445adb9a-fb3b-77ea-5c9d-9c1d8e76c1ba" testName="TestInvaidEmailAndClickSend" computerName="MUNNI" startTime="2015-10-18T00:43:42.3688011+01:00" endTime="2015-10-18T00:43:42.4000532+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd96d124-ca67-4422-af54-822efc2c2ff9">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method TestStagingSite.TestContactUs.ClassSetup threw exception. System.ComponentModel.Win32Exception: System.ComponentModel.Win32Exception: The system cannot find the file specified.</Message>
+          <StackTrace>    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at OpenQA.Selenium.DriverService.Start() in c:\Projects\webdriver\dotnet\src\webdriver\DriverService.cs:line 190
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:line 81
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 969
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 947
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 90
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 144
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options, TimeSpan commandTimeout) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 122
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 110
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory) in c:\Projects\webdriver\dotnet\src\webdriver\Chrome\ChromeDriver.cs:line 99
+   at TestStagingSite.TestContactUs.ClassSetup(TestContext a) in C:\Users\Satya\Desktop\SeleniumTest\QAWorksTest\TestStagingSite\TestContactUs.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="MUNNI" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="MUNNI\SystemInformation.xml">System Information from MUNNI</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2015-10-18T00:43:42.3844283+01:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="MUNNI" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+  </Results>
+</TestRun>
